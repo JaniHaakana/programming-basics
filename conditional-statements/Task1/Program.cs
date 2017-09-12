@@ -19,11 +19,11 @@ namespace Task1
 
             if(evaluatedNumber > 0)
             {
-                Console.WriteLine("Number {0} is greater than 0", evaluatedNumber);
+                Console.WriteLine("Number {0} is positive", evaluatedNumber);
             }
             else if(evaluatedNumber < 0)
             {
-                Console.WriteLine("Number {0} is less than 0", evaluatedNumber);
+                Console.WriteLine("Number {0} is negative", evaluatedNumber);
             }
             else
             {
