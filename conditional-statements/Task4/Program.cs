@@ -7,7 +7,7 @@ namespace Task4
         static void Main(string[] args)
         {
             // Prompt user
-            Console.Write("Please enter a number 1:");
+            Console.Write("Please enter number 1:");
 
             // Read user input
             String userInput;
@@ -18,7 +18,7 @@ namespace Task4
             int.TryParse(userInput, out evaluatedNumber1);
 
             // Prompt user
-            Console.Write("Please enter a number 2:");
+            Console.Write("Please enter number 2:");
 
             userInput = Console.ReadLine();
 
@@ -27,7 +27,7 @@ namespace Task4
             int.TryParse(userInput, out evaluatedNumber2);
 
             // Prompt user
-            Console.Write("Please enter a number 3:");
+            Console.Write("Please enter number 3:");
 
             userInput = Console.ReadLine();
 
